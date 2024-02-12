@@ -41,7 +41,7 @@ COPY /apache/apache2.conf /etc/apache2
 COPY /site /var/www/html
 
 # Declarar $PORT en railway con valor 80
-EXPOSE $PORT
+EXPOSE 80
 #CMD [“apache2ctl”, “-D”, “FOREGROUND”]
 
 # Arranque de apache
